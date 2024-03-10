@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to right, #b92929, #fa6d6d);
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s;
+    z-index: 998;
+    height: 40px;
+    display: flex;
+    justify-self:center;
+}
+
+#header:hover {
+    background: linear-gradient(to right, #fa6d6d, #b92929);
+}
+
+#logo_header {
+    width: 40px;
+    max-height: 100%;
+    margin-right: 10px;
+    background-color: #f9f9f9;
+    border-radius: 35%;
+    margin-left: 30px;
+}
+
+#logo_header img {
+    display: block;
+    max-width: 50px;
+    max-height: 45px;
+    height: auto;
+    border-radius: 5%;
+}
+
+#searchInput {
+    margin-left: 30%;
+    width: 30%;
+}
+
+#searchResults {
+    display: block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    top: 150px;
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    padding-top: 100px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #bb3737;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b57575;
+}
+
+table {
+    display: none;
+    width: 80%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect */
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Button style */
+button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #bb3737;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b57575;
+}

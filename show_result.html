@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tìm kiếm và Xem kết quả thi</title>
+    <link rel="stylesheet" href="show_result.css">
+</head>
+<body>
+    <div id="header">
+        <div id="logo_header">
+            <img src="./logo_ptit.png" alt="logo_ptit">
+        </div>
+        <input type="text" id="searchInput" placeholder="Nhập mã sinh viên hoặc tên sinh viên...">
+        <button onclick="searchStudents()">Tìm kiếm</button>
+    </div>
+    <div class="content">
+        <table id="searchTable">
+            <thead>
+                <tr>
+                    <th>Mã sinh viên</th>
+                    <th>Tên sinh viên</th>
+                    <th>Xem chi tiết</th>
+                </tr>
+            </thead>
+            <tbody id="searchData">
+                <!-- Dữ liệu sẽ được thêm vào đây bằng JavaScript -->
+            </tbody>
+        </table>
+
+        <table id="examTable">
+            <thead>
+                <tr>
+                    <th>Tên kỳ thi</th>
+                    <th>Trạng thái</th>
+                    <th>Điểm số</th>
+                    <th>Thời gian</th>
+                    <th>Xem chi tiết</th>
+                </tr>
+            </thead>
+            <tbody id="examData">
+                <!-- Dữ liệu sẽ được thêm vào đây bằng JavaScript -->
+            </tbody>
+        </table>        
+    </div>
+    <script src="show_result.js"></script>
+</body>
+</html>
